@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Parallax from '../Parallax/Parallax';
+import InstagramFeed from '../InstagramFeed/InstagramFeed';
 
 class App extends React.Component {
   render(){
     return (
       <div className="App">
-        <Parallax />
+        <InstagramFeed />
       </div>
     );
   }
