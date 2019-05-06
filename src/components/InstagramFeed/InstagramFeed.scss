@@ -1,1 +1,57 @@
 @import "../../variables";
+
+.feedcontainer {
+  height: auto;
+  width: 100%;
+}
+
+.instagramelements {
+  padding-top: 20%;
+  box-sizing: border-box;
+  position: relative;
+  width: 25%;
+  display: inline-block;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  animation: fadein 2s forwards;
+  -moz-animation: fadein 2s forwards;
+  -webkit-animation: fadein 2s forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
